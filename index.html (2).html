@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient</title>
+    <style>
+     div{
+        height: 200px;
+        width: 200px;
+        background-color: blue;
+       
+     }
+     #lg{
+        height: 200px;
+        width: 200px;
+        background:repeating-linear-gradient(to bottom, red 20px,blue 34%,grey 43%);
+        
+
+
+     }
+     #rg{
+        
+        background-image: repeating-radial-gradient( yellow,orange 50%,rgb(10, 143, 195));
+     }
+     #cg{
+        background-image: conic-gradient(black 45deg ,orange,blue);
+        border-radius: 25%;
+     }
+    </style>
+</head>
+<body>
+    <h1>Gradient</h1>
+    <div>
+
+    </div>
+    <h2>linear Gradient</h2>
+    <div id="lg">
+        linear Gradient
+
+
+    </div>
+    <h2>radical Gradient</h2>
+    <div id="rg">
+        radical Gradient
+    </div>
+    <h3>conic</h3>
+    <div id="cg">
+        conic Gradient
+    </div>
+
+</body>
+</html>
